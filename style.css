@@ -1,0 +1,104 @@
+body {
+font-family: 'Oswald', sans-serif;
+}
+
+.top_box {
+box-sizing: border-box;
+background-color: white;
+margin: auto;
+margin-bottom: 40px;
+margin-top: 40px;
+width: 910px;
+height:80px;
+padding: 20px;
+border-top: 1px solid black;
+border-bottom: 10px double rgba(70,45,200,0.7);
+}
+
+.main_box {
+display: flex;
+gap:2px;
+box-sizing: border-box;
+margin: auto;
+width: 910px;
+height:100%;
+}
+
+.category_box {
+background-image: url("https://cdn.galleries.smcloud.net/t/galleries/gf-9fcC-tNGL-eqSc_czekolada-jpg-664x442-nocrop.jpg");
+background-repeat: no-repeat;
+background-size: 300px 150px;
+box-sizing: border-box;
+width: 300px;
+height:310px;
+border: 1px solid black;
+border-radius: 5px;
+}
+.category_box:nth-child(1) {
+background-image: url("https://naszedrinki.pl/wp-content/uploads/2020/04/glowne_alkohole-swiata.jpeg");
+}
+.category_box:nth-child(2) {
+background-image: url("https://cdn.galleries.smcloud.net/t/galleries/gf-9fcC-tNGL-eqSc_czekolada-jpg-664x442-nocrop.jpg");
+}
+.category_box:nth-child(3) {
+background-image: url("https://zdrowie.tvn.pl/media/cache/content_cover_amp/fot-floortje-gettyimages-663898402-jpg.jpg");
+}
+
+.list_box {
+box-sizing: border-box;
+margin-top: 60px;
+width: 299px;
+height:120px;
+padding-top: 30px;
+padding-left: 50px;
+}
+
+.confirmation_box {
+box-sizing: border-box;
+background-color: rgba(70,45,200,0.7);
+margin: auto;
+width: 300px;
+height:40px;
+padding-top: 10px;
+padding-right: 10px;
+text-align: right;
+}
+
+.logo {
+font-size: 25px;
+text-align: left;
+font-weight: bold;
+}
+
+.category_name {
+box-sizing: border-box;
+background-color: rgba(255,255,255,0.7);
+padding:3px;
+width: 100px;
+height:30px;
+margin-top:60px;
+margin-left:30px;
+font-size: 20px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.category_name:hover {
+background-color: rgba(255,255,255,1);
+}
+
+.upper_list {
+list-style-type: disc;
+}
+
+.lower_list {
+list-style-type: circle;
+margin-left: 20px;
+}
+
+.bottom_box {
+box-sizing: border-box;
+margin: auto;
+width: 950px;
+height:60px;
+padding: 20px;
